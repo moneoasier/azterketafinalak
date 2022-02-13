@@ -1,0 +1,5 @@
+- Entity Framework
+- Encoding.CodePages(ha reporteentzako da (uste dot))
+- Session
+- Reporting (ez da behar)
+- Docfox (ez da behar)
