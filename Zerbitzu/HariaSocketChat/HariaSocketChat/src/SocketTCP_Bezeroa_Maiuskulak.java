@@ -5,7 +5,7 @@ import java.net.*;
 public class SocketTCP_Bezeroa_Maiuskulak {
 
 	public static void main(String[] args) throws Exception {
-		String host = "192.168.65.11";
+		String host = "localhost";
 		int port = 6000;
 		String agurMezua = "agur";
 
