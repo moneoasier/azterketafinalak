@@ -1,1 +1,3 @@
 https://www.youtube.com/channel/UCKLv68AyofXrSceodXcg8UA
+
+https://www.vultr.com/docs/how-to-install-odoo-on-ubuntu-20-04/
