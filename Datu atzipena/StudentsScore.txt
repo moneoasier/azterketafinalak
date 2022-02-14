@@ -1,0 +1,13 @@
+{"_id":0,
+ "name":"aimee Zank",
+ "scores":[
+	{
+	"score":1.463179736705023,
+	"type":"exam"
+	},{
+	"score":11.78273309957772,
+	"type":"quiz"
+	},{
+	"score":35.8740349954354,
+	"type":"homework"}]
+}
