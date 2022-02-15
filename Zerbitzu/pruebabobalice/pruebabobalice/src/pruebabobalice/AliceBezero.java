@@ -38,6 +38,7 @@ public class AliceBezero {
 		while (0 != bidaltzekoTestua.trim().compareToIgnoreCase(agurMezua)) {
 			System.out.print("Idatzi testu bat zerbitzariari: ");
 			bidaltzekoTestua = brErabiltzailea.readLine(); // Erabiltzailearen testua
+			BankuZerbitzari.contua = BankuZerbitzari.contua + 10;
 			pwos.println("Alice mezua: "+bidaltzekoTestua); // Zerbitzariari bidaltzen diogu
 			jasotakoTestua = br.readLine(); // Zerbitzariaren erantzuna jaso
 			System.out.println("  Zerbitzariaren erantzuna => " + jasotakoTestua);

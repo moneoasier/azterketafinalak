@@ -10,6 +10,7 @@ public class HariZerbitzaria extends Thread {
 	Socket socket = null;
 	String agurMezua = "agur";
 	int hariZenbakia = -1;
+	ArrayList<String> content = new ArrayList<String>();
 
 	public HariZerbitzaria(int hariZenbakia, Socket s) {
 		this.hariZenbakia = hariZenbakia;
@@ -33,12 +34,16 @@ public class HariZerbitzaria extends Thread {
 		while (0 != jasotakoTestua.trim().compareToIgnoreCase(agurMezua)) {
 			try {
 				jasotakoTestua = sarreraFluxua.readLine(); // Bezeroak bidalitakoa jaso
-
-				irteeraFluxua.println(jasotakoTestua);// Jasotakoa maiuskulatara bihurtu eta bidali
+				content.add(jasotakoTestua);
+				irteeraFluxua.println(content.toString());// Jasotakoa maiuskulatara bihurtu eta bidali
 				irteeraFluxua.flush();
-				System.out.println(jasotakoTestua);
+				if(this.hariZenbakia == 1) {
+					BankuZerbitzari.contua = BankuZerbitzari.contua - 20;
+				} else {
+					BankuZerbitzari.contua = BankuZerbitzari.contua + 10;
+				}
+				System.out.println(jasotakoTestua + ", Kontuko dirua: " + BankuZerbitzari.contua);
 				
-
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
