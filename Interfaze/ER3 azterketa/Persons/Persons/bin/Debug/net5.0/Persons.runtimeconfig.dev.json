@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\uribe\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\uribe\\.nuget\\packages"
+    ]
+  }
+}
