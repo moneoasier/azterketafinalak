@@ -89,7 +89,7 @@ public class Nireview extends View {
 
                     circlex=mx;
                     circley=my;
-                /*
+
                 if(circletop< 0){
 
                     circley=circleraudius;
@@ -105,7 +105,7 @@ public class Nireview extends View {
 
                 if(circlebottom > getHeight()){
                     circley=getHeight()-circleraudius;
-                }*/
+                }
 
 
             }
