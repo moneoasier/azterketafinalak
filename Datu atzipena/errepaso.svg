@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
-<svg width="25cm" height="20cm" viewBox="94 324 491 382" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="28cm" height="19cm" viewBox="74 325 558 374" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g>
     <rect style="fill: #ffffff" x="95" y="326" width="202.5" height="28"/>
     <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="95" y="326" width="202.5" height="28"/>
@@ -28,30 +28,48 @@
     <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="473,396 455,396 315.5,396 310.672,396 "/>
     <polygon style="fill: #ffffff" points="297.5,396 305.5,388 313.5,396 305.5,404 "/>
     <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="297.5,396 305.5,388 313.5,396 305.5,404 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="195" y="476">
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="195" y="476">
       <tspan x="195" y="476"></tspan>
     </text>
   </g>
-  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="315" y="377">
-    <tspan x="315" y="377">1</tspan>
-  </text>
-  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="458" y="376">
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="458" y="376">
     <tspan x="458" y="376">n</tspan>
   </text>
   <g>
-    <rect style="fill: #ffffff" x="292" y="553" width="241" height="28"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="292" y="553" width="241" height="28"/>
-    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="412.5" y="573">Book</text>
-    <rect style="fill: #ffffff" x="292" y="581" width="241" height="116"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="292" y="581" width="241" height="116"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="295" y="594.2">-title: String</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="295" y="610.2">-pageCount: int</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="295" y="626.2">-publishedDate: date</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="295" y="642.2">-thumbnailUrl: String</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="295" y="658.2">-status: String</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="295" y="674.2">-authors: ArrayList&lt;String&gt;</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="295" y="690.2">-categories: ArrayList&lt;String&gt;</text>
-    <rect style="fill: #ffffff" x="292" y="697" width="241" height="8"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="292" y="697" width="241" height="8"/>
+    <rect style="fill: #ffffff" x="76" y="546" width="241" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="76" y="546" width="241" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="196.5" y="566">Book</text>
+    <rect style="fill: #ffffff" x="76" y="574" width="241" height="116"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="76" y="574" width="241" height="116"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="79" y="587.2">-title: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="79" y="603.2">-pageCount: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="79" y="619.2">-publishedDate: PublishedDate</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="79" y="635.2">-thumbnailUrl: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="79" y="651.2">-status: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="79" y="667.2">-authors: ArrayList&lt;String&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="79" y="683.2">-categories: ArrayList&lt;String&gt;</text>
+    <rect style="fill: #ffffff" x="76" y="690" width="241" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="76" y="690" width="241" height="8"/>
   </g>
+  <g>
+    <rect style="fill: #ffffff" x="505" y="578" width="126.45" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="505" y="578" width="126.45" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="568.225" y="598">PublishedDate</text>
+    <rect style="fill: #ffffff" x="505" y="606" width="126.45" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="505" y="606" width="126.45" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="508" y="619.2">-date: date</text>
+    <rect style="fill: #ffffff" x="505" y="626" width="126.45" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="505" y="626" width="126.45" height="8"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="505,616 411,616 411,632 330.172,632 "/>
+    <polygon style="fill: #ffffff" points="317,632 325,624 333,632 325,640 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="317,632 325,624 333,632 325,640 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="363" y="599">
+      <tspan x="363" y="599"></tspan>
+    </text>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="490" y="602">
+    <tspan x="490" y="602">1</tspan>
+  </text>
 </svg>

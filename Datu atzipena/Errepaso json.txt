@@ -50,15 +50,19 @@ private float score;
 
 
 public class Book{
-private String title
+
+private String title;
 private int pageCount;
-private date publishedDate;
+private PublishedDate publishedDate;
 private String thumbnailUrl;
 private String status;
 private ArrayList<String> authors;
 private ArrayList<String> categories;
 }
 
+public class PublishedDate {
+private date date;
 
 
 
+}
